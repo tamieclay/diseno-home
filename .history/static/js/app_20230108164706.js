@@ -14,7 +14,7 @@ const products = [
       },
       {
         code: "darkblue",
-        img: "./static/img/modern.png",
+        img: "./static/img/mo.jpg",
 
       },
     ],

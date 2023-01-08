@@ -9,12 +9,12 @@ const products = [
     colors: [
       {
         code: "black",
-        img:"./static/img/modi.jpeg",
+        img:"./static/img/gold.jpg",
 
       },
       {
         code: "darkblue",
-        img: "./static/img/modern.png",
+        img: "./static/img/gold.jpg",
 
       },
     ],
