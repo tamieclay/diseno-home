@@ -9,7 +9,7 @@ class MainProducts(models.Model):
                             processors=[ResizeToFill(200,200)],
                                   format='PNG', 
                                   options={'quality':60} , blank=True) '''
-     products_video = models.FileField(upload_to='img/%y',blank=True)
+     products_video = models.FileField(upload_to='images/%y',blank=True)
      product_title = models.CharField(max_length=200)
      product_desc = models.CharField(max_length=600)
      product_spec1 = models.CharField(max_length=600)
